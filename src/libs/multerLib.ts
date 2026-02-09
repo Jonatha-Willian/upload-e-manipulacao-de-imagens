@@ -1,5 +1,5 @@
 import multer from 'multer';
 
 export const upload = multer({ 
-    dest: './public/uploads'
+    dest: "./public/tmp"
 });
